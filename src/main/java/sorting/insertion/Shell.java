@@ -2,9 +2,7 @@ package sorting.insertion;
 
 import sorting.Basic;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Shell extends Basic {
 
@@ -47,13 +45,24 @@ public class Shell extends Basic {
         return a;
     }
 
-    public static void main(String[] args) {
-        ArrayList<Double> doubles = new ArrayList<>();
-        while (doubles.size() < 10000) {
-            Random rand = new Random();
-            doubles.add(1 + rand.nextDouble() * 9);
+    public static boolean check(ArrayList<Double> arrayList) {
+        ArrayList<Double> unsorted = new ArrayList();
+        for (Double iterator : arrayList) {
+            unsorted.add(iterator);
         }
+        shellSort(arrayList);
+
+        if (isSorted(arrayList)) {
+            arrayList.removeAll(unsorted);
+            if (arrayList.isEmpty()) return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        ArrayList<Double> doubles = generateArray();
 
         show(shellSortWithArray(doubles));
+        System.out.println(check(doubles));
     }
 }

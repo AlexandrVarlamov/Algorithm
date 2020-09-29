@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdcce9ee-844e-4d17-99f7-3713e14ed0c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/insertion/Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/insertion/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/insertion/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/insertion/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/insertion/Shell.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,7 +56,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Insertion">
+    <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.insertion.Insertion" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.insertion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.insertion.Selection" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.insertion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.insertion.Shell" />
       <module name="algorithm" />
@@ -74,6 +98,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Insertion" />
+        <item itemvalue="Application.Selection" />
         <item itemvalue="Application.Shell" />
       </list>
     </recent_temporary>
@@ -88,8 +114,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601317608134</updated>
-      <workItem from="1601317611238" duration="8636000" />
+      <workItem from="1601317611238" duration="8721000" />
+      <workItem from="1601403461070" duration="8986000" />
     </task>
+    <task id="LOCAL-00001" summary="resolved tasks for Shell sort algorithm">
+      <created>1601330392416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601330392416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,10 +135,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resolved tasks for Shell sort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolved tasks for Shell sort algorithm" />
   </component>
 </project>

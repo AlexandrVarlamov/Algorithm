@@ -1,6 +1,7 @@
 package sorting;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Basic {
 
@@ -19,7 +20,7 @@ public class Basic {
     }
 
     public static boolean isSorted(ArrayList<Double> a) {
-        for (int i = 0; i < a.size(); i++) {
+        for (int i = 1; i < a.size(); i++) {
             if (less(a.get(i), a.get(i - 1))) {
                 return false;
             }
@@ -32,5 +33,14 @@ public class Basic {
             System.out.print(a.get(i) + " ");
         }
         System.out.println();
+    }
+
+    public static ArrayList<Double> generateArray() {
+        ArrayList<Double> doubles = new ArrayList<>();
+        while (doubles.size() < 10) {
+            Random rand = new Random();
+            doubles.add(1 + rand.nextDouble() * 9);
+        }
+        return doubles;
     }
 }
