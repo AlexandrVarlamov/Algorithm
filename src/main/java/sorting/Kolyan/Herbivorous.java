@@ -1,6 +1,6 @@
 package sorting.Kolyan;
 
-public class Herbivorous extends Animal {
+public abstract class Herbivorous extends Animal {
 
     @Override
     protected void eat(Food food) {

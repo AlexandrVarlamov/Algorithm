@@ -1,5 +1,5 @@
 package sorting.Kolyan;
 
-public class Animal {
+public abstract class Animal {
     protected void eat(Food food) {}
 }

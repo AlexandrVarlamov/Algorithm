@@ -1,4 +1,4 @@
 package sorting.Kolyan;
 
-public class Lion {
+public class Lion extends Predator implements Speaking {
 }

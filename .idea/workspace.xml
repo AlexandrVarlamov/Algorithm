@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdcce9ee-844e-4d17-99f7-3713e14ed0c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Herbivorous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Meat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Sneak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Speaking.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/insertion/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sorting/insertion/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Herbivorous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Herbivorous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Predator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/Kolyan/Predator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +144,7 @@
       <workItem from="1605460442919" duration="1779000" />
       <workItem from="1605462250576" duration="694000" />
       <workItem from="1605635546060" duration="4671000" />
-      <workItem from="1607776718249" duration="577000" />
+      <workItem from="1607776718249" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="resolved tasks for Shell sort algorithm">
       <created>1601330392416</created>
@@ -166,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601414193459</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Коля, всё для тебя!">
+      <created>1607777499023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607777499023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resolved tasks for Shell sort algorithm" />
     <MESSAGE value="add some hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some hw" />
+    <MESSAGE value="Коля, всё для тебя!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коля, всё для тебя!" />
   </component>
 </project>
