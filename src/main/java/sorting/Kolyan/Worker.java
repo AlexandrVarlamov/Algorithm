@@ -1,10 +1,15 @@
 package sorting.Kolyan;
 
 public class Worker {
-    private void feed(Animal animal, Food food) {
+    public void feed(Animal animal, Food food) {
+        if (animal instanceof Herbivorous) {
+            animal.eat(food);
+        } else {
+            animal.eat(food);
+        }
     }
 
-    private void getVoice(Speaking speaking) {
+    public void getVoice(Speaking speaking) {
         if (speaking instanceof Lion) {
             System.out.println("Gav!");
         } else if (speaking instanceof Duck) {

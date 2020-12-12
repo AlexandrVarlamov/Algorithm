@@ -6,6 +6,8 @@ public abstract class Herbivorous extends Animal {
     protected void eat(Food food) {
         if (food instanceof Meat) {
             System.out.println("Wrong food for me!");
+        } else {
+            System.out.println("Nyam-nyam");
         }
     }
 }
